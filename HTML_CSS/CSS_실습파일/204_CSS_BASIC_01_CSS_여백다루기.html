@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>여백다루기</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            /*margin:10px;*/ /*상하좌우 10px*/
+            /*margin: 10px 20px;*/ /*상하 10px 죄우 20px*/
+            /*margin: 10px 20px 30px;*/ /*상하 10px 죄우 20px 하 30px*/
+            margin: 10px 20px 30px 40px; /*시계방향*/
+            padding: 10px 20px 30px 40px; /*시계방향*/
+            /*중간 쪽으로 감*/
+            padding-top:20px; /*약간 윗 너비가 넓어짐*/
+            padding-right: 50px; /*오른쪽 너비가 넓어짐*/
+            /*-top, -botton,-left,-right*/
+
+            /*box-sizing: content-box;*/
+            /*box-sizing: content-box;*//*default*/
+            /*box-sizing: border-box;*//*박스의 사이즈가 작아짐*/
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>나는 코딩 공부중이다!!</p>
+    </div>
+</body>
+</html>
